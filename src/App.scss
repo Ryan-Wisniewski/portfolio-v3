@@ -215,10 +215,12 @@ img{
 
 .fullScreenImg{
   margin: auto;
-  display: block;
   max-height: 100%;
   max-width: 100%;
   height: auto;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%)
 }
 
 .close {
@@ -230,6 +232,7 @@ img{
   font-weight: bold;
   transition: 0.3s;
   cursor: pointer;
+  caret-color: transparent;
 }
 
 .projects{
